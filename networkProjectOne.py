@@ -1,12 +1,16 @@
 likeList=[]
 notLikeList=[]
 def getword(wordList):
-    global likeList
-    global notLikeList
+
     for ind ,word in enumerate(wordList):
         if (word == "like"):
+            global likeList
             likeList.append(wordList[ind+1])
-    print(likeList)
+        elif(word=="don't" ):
+            global notLikeList
+            notLikeList=wordList[ind+2]
+
+
 
 
 
@@ -14,4 +18,7 @@ stringWord = "we like apple. We don't like water"
 
 data = stringWord.split()  # split string into a list
 
-getword(likeList)
+getword(data)
+
+print(likeList)
+print(notLikeList)
