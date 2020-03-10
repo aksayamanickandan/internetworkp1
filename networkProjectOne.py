@@ -24,6 +24,6 @@ stringWord = "I like pie and muffins. I don't like corona for breakfast. I like 
 data = stringWord.split()  # split string into a list
 
 getword(data)  # this function takes in the list and searches for key words
-
+#this is the last pushhhhh
 print((notLikeList))
 print((likeList))
