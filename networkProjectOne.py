@@ -25,5 +25,6 @@ data = stringWord.split()  # split string into a list
 
 getword(data)  # this function takes in the list and searches for key words
 #this is the last pushhhhh
+
 print((notLikeList))
 print((likeList))
