@@ -11,7 +11,7 @@ def getword(wordList):
         elif (wordList[ind - 1] != "don't" and word == "like"):
             likeList.append(wordList[ind + 1])
 
-        elif (word == "don't"):
+        elif (word == "don't" ):
             global notLikeList
             notLikeList.append(wordList[ind + 2])
 
