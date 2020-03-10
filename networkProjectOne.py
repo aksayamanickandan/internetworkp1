@@ -19,7 +19,7 @@ def getword(wordList):
             notLikeList.append(wordList[ind + 2])
 
 
-stringWord = "I like pie and muffins. I don't like corona for breakfast. I like coffee for breakfast and I don't like milk. I like chicken for dinner. I don't like turkey for breakfast.I also like juice."
+stringWord = "I like pie and muffins. I don't like corona for breakfast. I like coffee for breakfast and I don't like milk. I like chicken for dinner. I don't like turkey for breakfast.I also like juice box."
 
 data = stringWord.split()  # split string into a list
 
