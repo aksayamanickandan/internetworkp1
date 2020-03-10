@@ -11,12 +11,15 @@ def getword(wordList):
         elif (wordList[ind - 1] != "don't" and word == "like"):
             likeList.append(wordList[ind + 1])
 
-        elif (word == "don't" ):
+        elif (word == "don't" and wordList[ind + 2] == "and"):
             global notLikeList
+            notLikeList.append(wordList[ind + 2])
+            notLikeList.append(wordList[ind + 4])
+        elif (word == "don't" ):
             notLikeList.append(wordList[ind + 2])
 
 
-stringWord = "I like pie and I like muffins. I don't like corona for breakfast. I like coffee for breakfast and I don't like milk. I like chicken for dinner. I don't like turkey for breakfast."  # this is our input
+stringWord = "I like pie and muffins. I don't like corona for breakfast. I like coffee for breakfast and I don't like milk. I like chicken for dinner. I don't like turkey for breakfast."  # this is our input
 
 data = stringWord.split()  # split string into a list
 
