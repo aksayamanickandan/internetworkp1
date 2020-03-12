@@ -12,6 +12,7 @@
 ####  - Foods for breakfast - close to 1
 ####  - Drinks - close to 2
 ####  - Foods for dinner - close to 3
-####  - The output of the program is a string array(kw) containing keywords and a vector of values(vals) that correspond to the key words. ####  - A plot shows the distribution of keywords
+####  - The output of the program is a string array(kw) containing keywords and a vector of values(vals) that correspond to the key words. 
+####  - A plot shows the distribution 
 
 
